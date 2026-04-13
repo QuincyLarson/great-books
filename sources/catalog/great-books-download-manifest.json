@@ -1,0 +1,488 @@
+{
+  "generated_at": "2026-03-24",
+  "notes": [
+    "Project Gutenberg entries use direct single-file HTML as the preferred raw source.",
+    "Also download the per-ebook RDF metadata sidecar when available.",
+    "World English Bible uses USFM zip as canonical raw source so verse/chapter structure is preserved.",
+    "One raw source may generate more than one normalized work (e.g. Sophocles volume for Oedipus + Antigone)."
+  ],
+  "sources": [
+    {
+      "slug": "apology",
+      "title": "Apology",
+      "author": "Plato",
+      "translator": "Benjamin Jowett",
+      "provider": "gutenberg",
+      "ebook_no": "1656",
+      "landing_url": "https://www.gutenberg.org/ebooks/1656",
+      "source_url": "https://www.gutenberg.org/ebooks/1656.html.images",
+      "fallback_txt_url": "https://www.gutenberg.org/ebooks/1656.txt.utf-8",
+      "metadata_url": "https://www.gutenberg.org/cache/epub/1656/pg1656.rdf",
+      "preferred_raw_format": "html",
+      "launch_usage": "full",
+      "path": "wisdom-and-the-self",
+      "normalized_work_slugs": [
+        "apology"
+      ],
+      "selection_plan": "Full text; one normalized section."
+    },
+    {
+      "slug": "crito",
+      "title": "Crito",
+      "author": "Plato",
+      "translator": "Benjamin Jowett",
+      "provider": "gutenberg",
+      "ebook_no": "1657",
+      "landing_url": "https://www.gutenberg.org/ebooks/1657",
+      "source_url": "https://www.gutenberg.org/ebooks/1657.html.images",
+      "fallback_txt_url": "https://www.gutenberg.org/ebooks/1657.txt.utf-8",
+      "metadata_url": "https://www.gutenberg.org/cache/epub/1657/pg1657.rdf",
+      "preferred_raw_format": "html",
+      "launch_usage": "full",
+      "path": "wisdom-and-the-self",
+      "normalized_work_slugs": [
+        "crito"
+      ],
+      "selection_plan": "Full text; one normalized section."
+    },
+    {
+      "slug": "enchiridion",
+      "title": "The Enchiridion",
+      "author": "Epictetus",
+      "translator": "Thomas Wentworth Higginson",
+      "provider": "gutenberg",
+      "ebook_no": "45109",
+      "landing_url": "https://www.gutenberg.org/ebooks/45109",
+      "source_url": "https://www.gutenberg.org/ebooks/45109.html.images",
+      "fallback_txt_url": "https://www.gutenberg.org/ebooks/45109.txt.utf-8",
+      "metadata_url": "https://www.gutenberg.org/cache/epub/45109/pg45109.rdf",
+      "preferred_raw_format": "html",
+      "launch_usage": "full",
+      "path": "wisdom-and-the-self",
+      "normalized_work_slugs": [
+        "enchiridion"
+      ],
+      "selection_plan": "Full text; preserve numbered aphorisms as block-level IDs."
+    },
+    {
+      "slug": "meditations",
+      "title": "Meditations",
+      "author": "Marcus Aurelius",
+      "translator": "Unknown/house-normalized from PG text",
+      "provider": "gutenberg",
+      "ebook_no": "2680",
+      "landing_url": "https://www.gutenberg.org/ebooks/2680",
+      "source_url": "https://www.gutenberg.org/ebooks/2680.html.images",
+      "fallback_txt_url": "https://www.gutenberg.org/ebooks/2680.txt.utf-8",
+      "metadata_url": "https://www.gutenberg.org/cache/epub/2680/pg2680.rdf",
+      "preferred_raw_format": "html",
+      "launch_usage": "full",
+      "path": "wisdom-and-the-self",
+      "normalized_work_slugs": [
+        "meditations"
+      ],
+      "selection_plan": "Split by Book I\u2013XII; section slugs book-1 \u2026 book-12."
+    },
+    {
+      "slug": "the-prince",
+      "title": "The Prince",
+      "author": "Niccol\u00f2 Machiavelli",
+      "translator": "W. K. Marriott",
+      "provider": "gutenberg",
+      "ebook_no": "1232",
+      "landing_url": "https://www.gutenberg.org/ebooks/1232",
+      "source_url": "https://www.gutenberg.org/ebooks/1232.html.images",
+      "fallback_txt_url": "https://www.gutenberg.org/ebooks/1232.txt.utf-8",
+      "metadata_url": "https://www.gutenberg.org/cache/epub/1232/pg1232.rdf",
+      "preferred_raw_format": "html",
+      "launch_usage": "full",
+      "path": "power-and-liberty",
+      "normalized_work_slugs": [
+        "the-prince"
+      ],
+      "selection_plan": "Extract only The Prince, not the additional appended texts in this edition; split by chapters 1\u201326."
+    },
+    {
+      "slug": "leviathan",
+      "title": "Leviathan",
+      "author": "Thomas Hobbes",
+      "translator": null,
+      "provider": "gutenberg",
+      "ebook_no": "3207",
+      "landing_url": "https://www.gutenberg.org/ebooks/3207",
+      "source_url": "https://www.gutenberg.org/ebooks/3207.html.images",
+      "fallback_txt_url": "https://www.gutenberg.org/ebooks/3207.txt.utf-8",
+      "metadata_url": "https://www.gutenberg.org/cache/epub/3207/pg3207.rdf",
+      "preferred_raw_format": "html",
+      "launch_usage": "selected",
+      "path": "power-and-liberty",
+      "normalized_work_slugs": [
+        "leviathan"
+      ],
+      "selection_plan": "Launch v1 selections: ch. 13\u201315, 17\u201318."
+    },
+    {
+      "slug": "second-treatise-of-government",
+      "title": "Second Treatise of Government",
+      "author": "John Locke",
+      "translator": null,
+      "provider": "gutenberg",
+      "ebook_no": "7370",
+      "landing_url": "https://www.gutenberg.org/ebooks/7370",
+      "source_url": "https://www.gutenberg.org/ebooks/7370.html.images",
+      "fallback_txt_url": "https://www.gutenberg.org/ebooks/7370.txt.utf-8",
+      "metadata_url": "https://www.gutenberg.org/cache/epub/7370/pg7370.rdf",
+      "preferred_raw_format": "html",
+      "launch_usage": "selected",
+      "path": "power-and-liberty",
+      "normalized_work_slugs": [
+        "second-treatise-of-government"
+      ],
+      "selection_plan": "Launch v1 selections: ch. 2, 5, 8, 9, 19."
+    },
+    {
+      "slug": "on-liberty",
+      "title": "On Liberty",
+      "author": "John Stuart Mill",
+      "translator": null,
+      "provider": "gutenberg",
+      "ebook_no": "34901",
+      "landing_url": "https://www.gutenberg.org/ebooks/34901",
+      "source_url": "https://www.gutenberg.org/ebooks/34901.html.images",
+      "fallback_txt_url": "https://www.gutenberg.org/ebooks/34901.txt.utf-8",
+      "metadata_url": "https://www.gutenberg.org/cache/epub/34901/pg34901.rdf",
+      "preferred_raw_format": "html",
+      "launch_usage": "full",
+      "path": "power-and-liberty",
+      "normalized_work_slugs": [
+        "on-liberty"
+      ],
+      "selection_plan": "Split by Introductory + chapters 1\u20135."
+    },
+    {
+      "slug": "federalist-papers",
+      "title": "The Federalist Papers",
+      "author": "Alexander Hamilton; John Jay; James Madison",
+      "translator": null,
+      "provider": "gutenberg",
+      "ebook_no": "18",
+      "landing_url": "https://www.gutenberg.org/ebooks/18",
+      "source_url": "https://www.gutenberg.org/ebooks/18.html.images",
+      "fallback_txt_url": "https://www.gutenberg.org/ebooks/18.txt.utf-8",
+      "metadata_url": "https://www.gutenberg.org/cache/epub/18/pg18.rdf",
+      "preferred_raw_format": "html",
+      "launch_usage": "selected",
+      "path": "power-and-liberty",
+      "normalized_work_slugs": [
+        "federalist-papers"
+      ],
+      "selection_plan": "Launch v1 selections: Nos. 1, 10, 14, 39, 51, 78, 84."
+    },
+    {
+      "slug": "odyssey",
+      "title": "The Odyssey",
+      "author": "Homer",
+      "translator": "Samuel Butler",
+      "provider": "gutenberg",
+      "ebook_no": "1727",
+      "landing_url": "https://www.gutenberg.org/ebooks/1727",
+      "source_url": "https://www.gutenberg.org/ebooks/1727.html.images",
+      "fallback_txt_url": "https://www.gutenberg.org/ebooks/1727.txt.utf-8",
+      "metadata_url": "https://www.gutenberg.org/cache/epub/1727/pg1727.rdf",
+      "preferred_raw_format": "html",
+      "launch_usage": "selected",
+      "path": "epic-and-tragedy",
+      "normalized_work_slugs": [
+        "odyssey"
+      ],
+      "selection_plan": "Launch v1 selections: Books 1, 5, 9\u201312, 23."
+    },
+    {
+      "slug": "sophocles-oedipus-antigone",
+      "title": "Plays of Sophocles: Oedipus the King; Oedipus at Colonus; Antigone",
+      "author": "Sophocles",
+      "translator": "Francis Storr",
+      "provider": "gutenberg",
+      "ebook_no": "31",
+      "landing_url": "https://www.gutenberg.org/ebooks/31",
+      "source_url": "https://www.gutenberg.org/ebooks/31.html.images",
+      "fallback_txt_url": "https://www.gutenberg.org/ebooks/31.txt.utf-8",
+      "metadata_url": "https://www.gutenberg.org/cache/epub/31/pg31.rdf",
+      "preferred_raw_format": "html",
+      "launch_usage": "selected",
+      "path": "epic-and-tragedy",
+      "normalized_work_slugs": [
+        "oedipus-rex",
+        "antigone"
+      ],
+      "selection_plan": "One raw source feeds two normalized works. Extract Oedipus the King and Antigone as separate works; ignore Oedipus at Colonus for MVP."
+    },
+    {
+      "slug": "hamlet",
+      "title": "Hamlet",
+      "author": "William Shakespeare",
+      "translator": null,
+      "provider": "gutenberg",
+      "ebook_no": "1524",
+      "landing_url": "https://www.gutenberg.org/ebooks/1524",
+      "source_url": "https://www.gutenberg.org/ebooks/1524.html.images",
+      "fallback_txt_url": "https://www.gutenberg.org/ebooks/1524.txt.utf-8",
+      "metadata_url": "https://www.gutenberg.org/cache/epub/1524/pg1524.rdf",
+      "preferred_raw_format": "html",
+      "launch_usage": "full",
+      "path": "epic-and-tragedy",
+      "normalized_work_slugs": [
+        "hamlet"
+      ],
+      "selection_plan": "Split by act/scene. Preserve speech speakers and stage directions semantically."
+    },
+    {
+      "slug": "bible-web",
+      "title": "World English Bible Protestant Edition",
+      "author": null,
+      "translator": "World English Bible",
+      "provider": "web",
+      "ebook_no": "WEBP",
+      "landing_url": "https://ebible.org/engwebp/",
+      "source_url": "https://ebible.org/Scriptures/engwebp_usfm.zip",
+      "fallback_txt_url": "https://ebible.org/Scriptures/engwebp_readaloud.zip",
+      "metadata_url": null,
+      "preferred_raw_format": "usfm_zip",
+      "path": "faith-and-meaning",
+      "launch_usage": "selected",
+      "normalized_work_slugs": [
+        "bible-web"
+      ],
+      "selection_plan": "Use USFM as canonical raw source; normalize to book/chapter sections with verse-level anchors. Launch v1 selections only, not full Bible UI.",
+      "rights_url": "https://ebible.org/engwebp/copyright.htm"
+    },
+    {
+      "slug": "confessions",
+      "title": "The Confessions of St. Augustine",
+      "author": "Augustine",
+      "translator": "E. B. Pusey",
+      "provider": "gutenberg",
+      "ebook_no": "3296",
+      "landing_url": "https://www.gutenberg.org/ebooks/3296",
+      "source_url": "https://www.gutenberg.org/ebooks/3296.html.images",
+      "fallback_txt_url": "https://www.gutenberg.org/ebooks/3296.txt.utf-8",
+      "metadata_url": "https://www.gutenberg.org/cache/epub/3296/pg3296.rdf",
+      "preferred_raw_format": "html",
+      "launch_usage": "selected",
+      "path": "faith-and-meaning",
+      "normalized_work_slugs": [
+        "confessions"
+      ],
+      "selection_plan": "Launch v1 selections: Books 1, 2, 3, 7, 8, 10, 11."
+    },
+    {
+      "slug": "city-of-god-vol-1",
+      "title": "The City of God, Volume I",
+      "author": "Augustine",
+      "translator": "Marcus Dods (editor/series)",
+      "provider": "gutenberg",
+      "ebook_no": "45304",
+      "landing_url": "https://www.gutenberg.org/ebooks/45304",
+      "source_url": "https://www.gutenberg.org/ebooks/45304.html.images",
+      "fallback_txt_url": "https://www.gutenberg.org/ebooks/45304.txt.utf-8",
+      "metadata_url": "https://www.gutenberg.org/cache/epub/45304/pg45304.rdf",
+      "preferred_raw_format": "html",
+      "launch_usage": "selected",
+      "path": "faith-and-meaning",
+      "normalized_work_slugs": [
+        "city-of-god-book-1"
+      ],
+      "selection_plan": "Launch v1: Book I only. Extract as a standalone normalized work."
+    },
+    {
+      "slug": "romeo-and-juliet",
+      "title": "Romeo and Juliet",
+      "author": "William Shakespeare",
+      "translator": null,
+      "provider": "gutenberg",
+      "ebook_no": "1513",
+      "landing_url": "https://www.gutenberg.org/ebooks/1513",
+      "source_url": "https://www.gutenberg.org/ebooks/1513.html.images",
+      "fallback_txt_url": "https://www.gutenberg.org/ebooks/1513.txt.utf-8",
+      "metadata_url": "https://www.gutenberg.org/cache/epub/1513/pg1513.rdf",
+      "preferred_raw_format": "html",
+      "launch_usage": "full",
+      "path": "love-and-society",
+      "normalized_work_slugs": [
+        "romeo-and-juliet"
+      ],
+      "selection_plan": "Split by act/scene."
+    },
+    {
+      "slug": "pride-and-prejudice",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "translator": null,
+      "provider": "gutenberg",
+      "ebook_no": "42671",
+      "landing_url": "https://www.gutenberg.org/ebooks/42671",
+      "source_url": "https://www.gutenberg.org/ebooks/42671.html.images",
+      "fallback_txt_url": "https://www.gutenberg.org/ebooks/42671.txt.utf-8",
+      "metadata_url": "https://www.gutenberg.org/cache/epub/42671/pg42671.rdf",
+      "preferred_raw_format": "html",
+      "launch_usage": "selected",
+      "path": "love-and-society",
+      "normalized_work_slugs": [
+        "pride-and-prejudice"
+      ],
+      "selection_plan": "Use improved edition #42671. Launch v1 selections: ch. 1\u20136, 34, 42\u201343, 58\u201361."
+    },
+    {
+      "slug": "vindication-rights-of-woman",
+      "title": "A Vindication of the Rights of Woman",
+      "author": "Mary Wollstonecraft",
+      "translator": null,
+      "provider": "gutenberg",
+      "ebook_no": "3420",
+      "landing_url": "https://www.gutenberg.org/ebooks/3420",
+      "source_url": "https://www.gutenberg.org/ebooks/3420.html.images",
+      "fallback_txt_url": "https://www.gutenberg.org/ebooks/3420.txt.utf-8",
+      "metadata_url": "https://www.gutenberg.org/cache/epub/3420/pg3420.rdf",
+      "preferred_raw_format": "html",
+      "launch_usage": "selected",
+      "path": "love-and-society",
+      "normalized_work_slugs": [
+        "vindication-rights-of-woman"
+      ],
+      "selection_plan": "Launch v1 selections: intro + ch. 2\u20135 + ch. 13."
+    },
+    {
+      "slug": "narrative-life-frederick-douglass",
+      "title": "Narrative of the Life of Frederick Douglass, an American Slave",
+      "author": "Frederick Douglass",
+      "translator": null,
+      "provider": "gutenberg",
+      "ebook_no": "23",
+      "landing_url": "https://www.gutenberg.org/ebooks/23",
+      "source_url": "https://www.gutenberg.org/ebooks/23.html.images",
+      "fallback_txt_url": "https://www.gutenberg.org/ebooks/23.txt.utf-8",
+      "metadata_url": "https://www.gutenberg.org/cache/epub/23/pg23.rdf",
+      "preferred_raw_format": "html",
+      "launch_usage": "full",
+      "path": "love-and-society",
+      "normalized_work_slugs": [
+        "narrative-life-frederick-douglass"
+      ],
+      "selection_plan": "Split by chapters 1\u201311 + appendix if retained."
+    },
+    {
+      "slug": "frankenstein",
+      "title": "Frankenstein; Or, The Modern Prometheus",
+      "author": "Mary Wollstonecraft Shelley",
+      "translator": null,
+      "provider": "gutenberg",
+      "ebook_no": "42324",
+      "landing_url": "https://www.gutenberg.org/ebooks/42324",
+      "source_url": "https://www.gutenberg.org/ebooks/42324.html.images",
+      "fallback_txt_url": "https://www.gutenberg.org/ebooks/42324.txt.utf-8",
+      "metadata_url": "https://www.gutenberg.org/cache/epub/42324/pg42324.rdf",
+      "preferred_raw_format": "html",
+      "launch_usage": "full",
+      "path": "monsters-and-the-modern-mind",
+      "normalized_work_slugs": [
+        "frankenstein"
+      ],
+      "selection_plan": "Use improved 1831 edition #42324 for launch. Split by letters/chapters."
+    },
+    {
+      "slug": "dr-jekyll-and-mr-hyde",
+      "title": "The Strange Case of Dr. Jekyll and Mr. Hyde",
+      "author": "Robert Louis Stevenson",
+      "translator": null,
+      "provider": "gutenberg",
+      "ebook_no": "42",
+      "landing_url": "https://www.gutenberg.org/ebooks/42",
+      "source_url": "https://www.gutenberg.org/ebooks/42.html.images",
+      "fallback_txt_url": "https://www.gutenberg.org/ebooks/42.txt.utf-8",
+      "metadata_url": "https://www.gutenberg.org/cache/epub/42/pg42.rdf",
+      "preferred_raw_format": "html",
+      "launch_usage": "full",
+      "path": "monsters-and-the-modern-mind",
+      "normalized_work_slugs": [
+        "dr-jekyll-and-mr-hyde"
+      ],
+      "selection_plan": "Split by chapters."
+    },
+    {
+      "slug": "picture-of-dorian-gray",
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "translator": null,
+      "provider": "gutenberg",
+      "ebook_no": "26740",
+      "landing_url": "https://www.gutenberg.org/ebooks/26740",
+      "source_url": "https://www.gutenberg.org/ebooks/26740.html.images",
+      "fallback_txt_url": "https://www.gutenberg.org/ebooks/26740.txt.utf-8",
+      "metadata_url": "https://www.gutenberg.org/cache/epub/26740/pg26740.rdf",
+      "preferred_raw_format": "html",
+      "launch_usage": "full",
+      "path": "monsters-and-the-modern-mind",
+      "normalized_work_slugs": [
+        "picture-of-dorian-gray"
+      ],
+      "selection_plan": "Use smaller text edition #26740 for launch. Split by chapters."
+    },
+    {
+      "slug": "novum-organum",
+      "title": "Novum Organum",
+      "author": "Francis Bacon",
+      "translator": "Joseph Devey (editor)",
+      "provider": "gutenberg",
+      "ebook_no": "45988",
+      "landing_url": "https://www.gutenberg.org/ebooks/45988",
+      "source_url": "https://www.gutenberg.org/ebooks/45988.html.images",
+      "fallback_txt_url": "https://www.gutenberg.org/ebooks/45988.txt.utf-8",
+      "metadata_url": "https://www.gutenberg.org/cache/epub/45988/pg45988.rdf",
+      "preferred_raw_format": "html",
+      "launch_usage": "selected",
+      "path": "science-and-method",
+      "normalized_work_slugs": [
+        "novum-organum"
+      ],
+      "selection_plan": "Launch v1 selections: preface + Book I aphorisms 1\u201368 and 91\u2013130."
+    },
+    {
+      "slug": "discourse-on-method",
+      "title": "Discourse on the Method of Rightly Conducting One's Reason and of Seeking Truth in the Sciences",
+      "author": "Ren\u00e9 Descartes",
+      "translator": "John Veitch",
+      "provider": "gutenberg",
+      "ebook_no": "59",
+      "landing_url": "https://www.gutenberg.org/ebooks/59",
+      "source_url": "https://www.gutenberg.org/ebooks/59.html.images",
+      "fallback_txt_url": "https://www.gutenberg.org/ebooks/59.txt.utf-8",
+      "metadata_url": "https://www.gutenberg.org/cache/epub/59/pg59.rdf",
+      "preferred_raw_format": "html",
+      "launch_usage": "selected",
+      "path": "science-and-method",
+      "normalized_work_slugs": [
+        "discourse-on-method"
+      ],
+      "selection_plan": "Launch v1 selections: Parts I\u2013IV; full text is short enough if desired."
+    },
+    {
+      "slug": "origin-of-species",
+      "title": "On the Origin of Species By Means of Natural Selection",
+      "author": "Charles Darwin",
+      "translator": null,
+      "provider": "gutenberg",
+      "ebook_no": "1228",
+      "landing_url": "https://www.gutenberg.org/ebooks/1228",
+      "source_url": "https://www.gutenberg.org/ebooks/1228.html.images",
+      "fallback_txt_url": "https://www.gutenberg.org/ebooks/1228.txt.utf-8",
+      "metadata_url": "https://www.gutenberg.org/cache/epub/1228/pg1228.rdf",
+      "preferred_raw_format": "html",
+      "launch_usage": "selected",
+      "path": "science-and-method",
+      "normalized_work_slugs": [
+        "origin-of-species"
+      ],
+      "selection_plan": "Use first edition #1228. Launch v1 selections: ch. 3, 4, 6, 9, 14."
+    }
+  ]
+}
